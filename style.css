@@ -10,8 +10,76 @@ body{
     margin: 0 auto;
 }
 #myheader{
-    background-image: url(https://cdn1.img.vn.sputniknews.com/images/483/26/4832624.jpg);
+    background-image: url(background.jpg);
+    height: 275px;
+    border: 5px ridge rgba(28,110,164,0.94);
+}
+#avatar img{
+    height: 150px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+#name{
+    margin: 0px;
 }
 ul, li{
     list-style: none;
+}
+#linkbutton {
+    height: 35px;
+    margin-left: -30px;
+}
+#linkbutton li{
+    float: left;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+#linkbutton a:hover{
+    background: #1C6EA4;
+}
+#linkbutton a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    line-height: 16px; 
+    padding: 5px; 
+    border-radius: 9px; 
+    font-family: Georgia, serif; 
+    font-weight: normal;  
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) -1px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;
+}
+#linkbutton a:active{
+    background: #144E75; }
+}
+#mybody{
+    background-image: url(mybody.png);
+    background-repeat: repeat-x;
+}
+#mybody:after{
+    content: "";
+    display: block;
+    clear: both;
+    height:0;
+}
+
+#sidebar {
+    float: left;
+    width: 298px;
+    border: 3px ridge rgba(28,110,164,0.94);
+}
+#myimages{
+    float: right;
+    width: 650px;
+    border: 3px ridge rgba(28,110,164,0.94);
 }
